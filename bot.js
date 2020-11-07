@@ -3,7 +3,7 @@ const config = {
 	// metrika_token: process.env.METRIKA_TOKEN || '',
 	host: process.env.HOST || 'http://127.0.0.1',
 	port: process.env.PORT || 3000,
-	token: process.env.TOKEN || '',
+	token: process.env.TOKEN || ' ',
 };
 
 const Telegraf = require('telegraf');
